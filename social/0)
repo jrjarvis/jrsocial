@@ -1,0 +1,2 @@
+ERROR: "bundle install" was called with arguments ["tzinfo-data ( x86-mingw32"]
+Usage: "bundle install [OPTIONS]"

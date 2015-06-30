@@ -6,8 +6,12 @@
 	</div>
 
 	<div class="panel-body">
-		<p><em>By <%= text_post.user.name %></em></p>
+		<p><em><%= text_post.user.name %> says</em></p>
 
 		<%= text_post.body %>
+	</div>
+
+	<div class="panel-footer">
+		<p>Posted <%= link_to time_ago_in_words(text_post.updated_at) , post_path(text_post) %> ago</p>
 	</div>
 </div>

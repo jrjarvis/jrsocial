@@ -12,4 +12,8 @@
 
 		<%= image_post.body %>
 	</div>
+
+	<div class="panel-footer">
+		<p>Posted <%= link_to time_ago_in_words(image_post.updated_at) , post_path(image_post) %> ago</p>
+	</div>
 </div>

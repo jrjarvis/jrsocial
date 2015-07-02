@@ -3,7 +3,7 @@
 post1:
   title: Title one
   body: Body one
-  type: TestPost
+  type: TextPost
   user_id: user1
 
 post2:
